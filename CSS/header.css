@@ -1,0 +1,85 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    text-decoration: none;
+
+
+}
+
+#principal-header {}
+
+.nav-superior {
+
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav-superior .wrapper {
+
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-superior ul {
+
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    justify-content: space-between;
+    color: white;
+
+    width: 100%;
+}
+
+.nav-superior ul li i {
+    color: orange;
+
+}
+
+.nav-inferior {
+
+    display: flex;
+
+    justify-content: center;
+}
+
+.nav-inferior .wrapper {
+
+    max-width: 1000px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.nav-inferior ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    justify-content: right;
+
+}
+
+.nav-inferior ul li {
+    color: grey;
+}
+
+.nav-inferior ul li:first-child {
+    color: orange;
+
+}

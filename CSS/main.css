@@ -1,0 +1,200 @@
+.hero {
+
+    background-image: url(../images/fondo.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #666;
+    display: flex;
+    justify-content: center;
+}
+
+.hero .wrapper {
+
+    width: 100%;
+    max-width: 1000px;
+    align-items: center;
+    display: flex;
+
+}
+
+.hero .redes-sociales {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 35px;
+    color: white;
+}
+
+.hero .wrapper div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.hero h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+
+}
+
+.hero h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: orangered;
+}
+
+.hero h3 {
+    color: white;
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1;
+    background-color: orangered;
+    border: 3px solid #fff;
+    border-radius: 40px;
+    color: orangered;
+    cursor: pointer;
+    display: inline-block;
+    padding: 20px 40px;
+    text-align: center;
+    box-shadow: 5px 5px 10px 1px #fab929;
+}
+
+.button:hover {
+    background-color: orangered;
+    color-scheme: #120a25;
+    border: 1px solid #120a25;
+    transition: ease all 1.0s;
+    transform: scale(1.1);
+
+}
+
+.container {
+    max-width: 75rem;
+    margin: auto;
+}
+
+.servicios {
+
+    padding: 50px 0;
+}
+
+.servicios h2 {
+
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto 2em auto;
+    position: relative;
+    font: 400 normal 2em "Sofadi One", system-ui;
+
+}
+
+.servicios h3 {
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.servicios .grid {
+
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.sobre-nosotros {
+    margin-bottom: 40px;
+
+}
+
+.sobre-nosotros h2 {
+
+    padding-bottom: 30px;
+    text-align: center;
+    font: 400 normal 2em "Sofadi One", system-ui;
+}
+
+.servicios section {
+    display: flex;
+
+}
+
+.img-sobre-nosotros {
+    width: 1000px;
+    min-width: 300px;
+}
+
+.img-sobre-nosotros img {
+    width: 100%;
+    border: black;
+}
+
+.sobre-nosotros div {
+    display: flex;
+
+}
+
+.history {
+
+    margin-left: 30px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.grid {
+
+    display: flex;
+}
+
+/*Footer*/
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+footer p {
+
+    margin: 5px 0;
+}
+
+footer a {
+    color: white;
+}
+
+.fa-solid.fa-bars {
+    display: none;
+
+}
+
+@media (width <600px) {
+    body {}
+
+    #principal-header .nav-superior .wrapper span {
+
+        display: none;
+
+    }
+
+    .fa-solid.fa-bars {
+        display: block;
+
+    }
+
+    .nav-inferior ul {
+        width: 100%;
+    }
+
+}
